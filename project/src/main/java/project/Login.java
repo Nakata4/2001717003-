@@ -2,6 +2,11 @@ package project;
 
 import javax.swing.*;
 
+/**
+ * @author Nakata
+ *
+ */
+
 public class Login {
    JLabel user_label, password_label, message;
    JTextField userName_text;
