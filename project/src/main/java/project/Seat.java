@@ -11,7 +11,8 @@ public class Seat
          * this is a randomizer class 
          */
     }
-    public Seat(int number, boolean isTaken) {   
+
+    public  Seat(int number, boolean isTaken) {   
     }
     public int getNumber() {
     	return number;
