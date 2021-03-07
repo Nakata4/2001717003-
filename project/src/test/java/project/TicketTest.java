@@ -11,6 +11,8 @@ import java.io.FileWriter;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
+import org.junit.Test;
+
 public class TicketTest 
 {
 	public void test1() {
@@ -90,8 +92,6 @@ public class TicketTest
 
 		return al;
 	}
-
-
 
 	// Method that generates a fresh database
 	public void FullDataBaseGeneration(String file_name)

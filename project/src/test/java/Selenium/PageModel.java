@@ -7,11 +7,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 /**
- * SDI Page object Model
- * @author Boyan
+ *  Page object Model
+ * @author Nasko
  *
  */
-public class SdiPageModel {
+public class PageModel {
 	
 	/**
 	 * Selenium WebDriver instance
@@ -43,7 +43,7 @@ public class SdiPageModel {
 	WebElement searchInput;
 	
 	/**
-	 * Main div of "SDI Club" page
+	 * Main div
 	 */
 	@FindBy(className = "mobile-page-body")
 	WebElement sdiClubMainDiv;
@@ -65,16 +65,16 @@ public class SdiPageModel {
 	 * 
 	 * @param driver
 	 */
-	public SdiPageModel(final WebDriver driver) {
+	public PageModel(final WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	
 	/**
-	 * Navigate to SDI domain
+	 * Navigate to domain
 	 */
 	public void navigateToMain() {
-		driver.get("https://www.sdi.bg/");		
+		driver.get("https://en.wikipedia.org/wiki/Filmi");		
 	}
 	
 	/**
@@ -128,7 +128,7 @@ public class SdiPageModel {
 	}
 	
 	/**
-	 * Click the "SDI Club" link after clicking the menu
+	 * Click the link after clicking the menu
 	 */
 	public void clickSdiClubMenuItem() {
 		menuTab.click();
@@ -136,7 +136,7 @@ public class SdiPageModel {
 	}
 	
 	/**
-	 * Click the partners discount link in SDI Club page.
+	 * Click the partners discount link in Club page.
 	 */
 	public void clickSdiPartnersDiscountLink() {
 		sdiClubMainDiv.findElements(By.tagName("p")).get(3).findElement(By.tagName("strong")).findElement(By.tagName("a")).click();

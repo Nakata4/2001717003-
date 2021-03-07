@@ -83,5 +83,16 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Nakata/workspace/GunStore/WebContent/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Nakata/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="logback-classic-1.2.3.jar"/>
+			<attribute name="maven.groupId" value="ch.qos.logback"/>
+			<attribute name="maven.artifactId" value="logback-classic"/>
+			<attribute name="maven.version" value="1.2.3"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

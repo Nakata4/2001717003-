@@ -8,7 +8,7 @@ public class SeatTest {
 	@Test
 	public void testFreePlace() {
           PlaceService service=new PlaceService();
-          assertTrue(service.isPlaceFree(new Place(5,1)));
+          assert(service.isPlaceFree(new Place(5,1)));
 	}
 
 }
